@@ -1,0 +1,57 @@
+/* Global styles  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 26px;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+/* Header styles css  */
+header{
+    background-color: #FFF9F4;
+}
+.navbar-brand img{
+    width: 291px;
+}
+header a.nav-link{
+    color: #3C3C3C;
+    font-weight: 500;
+}
+.hero-details h2{
+    color: #363958;
+    font-size: 80px;
+    line-height: 96px;
+}
+.hero-details h2 span{
+    color: #FA804C;
+}
+.buy-now-btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    padding: 10px 17px !important;
+}
+/* shoes section styles  */
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.prodct-price {
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* responsive styles  */
+
+@media only screen and (max-width:768px){
+    .hero-details h2{
+        font-size: 60px;
+        line-height: 65px;
+    }
+}
